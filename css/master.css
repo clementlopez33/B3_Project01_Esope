@@ -1,0 +1,94 @@
+body{
+background-image: url('images/fond.jpg')  ;
+background-size: cover;
+margin: 0;
+
+}
+
+header{
+  min-height: 100vh;
+  padding-top: 2em;
+  padding-bottom: 10em;
+  display: flex;
+  flex-direction:  column;
+  justify-content:  center;
+  align-items: center;
+
+}
+
+img{
+max-width: 200px;
+
+}
+
+
+
+h1 {
+
+
+text-align: center;
+
+
+
+
+}
+
+.fable01 {
+
+  min-height: 75vh;
+    background: #6b7b00 url('images/raf.jpg') top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 42px;
+
+
+}
+
+.fable01 p{
+text-shadow: 12px 12px 2px rgba(255,136,235,0.93);
+  max-width: 350px;
+  margin-left: 80px;
+}
+
+.fable02{
+  min-height: 150vh;
+  overflow: hidden;
+  background: #efefef url('images/motif.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.fable02 p{
+  background: rgba(255,136,235,0.83);
+  max-width: 600px;
+  padding: 20px;
+  margin: 25px;
+  padding-bottom: 0;
+  border-radius: 55px;
+}
+
+.fable02 h2{
+border: 20px solid rgba(255,136,235,0.93);
+border-style: dashed;
+
+border-left: none;
+border-right: none;
+
+padding: 50px;
+
+}
+
+
+
+
+
+.fable03 {
+  margin: 0;
+
+  min-height: 150vh;
+  background: black url('images/sun.gif') top center no-repeat;
+  background-size: cover;
+}
